@@ -11,3 +11,4 @@ xhofe/alist:latest
 redis:7-alpine
 mongo:7.0
 mcr.microsoft.com/dotnet/sdk:10.0-preview
+node:20-alpine
