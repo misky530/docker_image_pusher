@@ -10,5 +10,7 @@ xhofe/alist:latest
 #treasure-chest
 redis:7-alpine
 mongo:7.0
-mcr.microsoft.com/dotnet/sdk:10.0-preview
 node:20-alpine
+# 自定义别名，推送后名称为 dotnet-sdk:10.0-preview
+dotnet-sdk:10.0-preview|mcr.microsoft.com/dotnet/sdk:10.0-preview
+
