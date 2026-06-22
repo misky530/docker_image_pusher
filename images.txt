@@ -21,3 +21,6 @@ nginx:alpine
 # === 后端 api 构建用（Dockerfile）===
 mcr.microsoft.com/dotnet/sdk:10.0-preview
 aspnet:10.0-preview|mcr.microsoft.com/dotnet/aspnet:10.0-preview
+
+#avx
+mongo:4.4
