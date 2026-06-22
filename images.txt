@@ -10,6 +10,14 @@ xhofe/alist:latest
 #treasure-chest
 redis:7-alpine
 mongo:7.0
-node:20-alpine
+
 # 自定义别名，推送后名称为 dotnet-sdk:10.0-preview
 dotnet10-sdk:10.0-preview|mcr.microsoft.com/dotnet/sdk:10.0-preview
+
+前端
+node:20-alpine
+nginx:alpine
+
+# === 后端 api 构建用（Dockerfile）===
+mcr.microsoft.com/dotnet/sdk:10.0-preview
+aspnet:10.0-preview|mcr.microsoft.com/dotnet/aspnet:10.0-preview
