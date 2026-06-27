@@ -28,3 +28,7 @@ mongo:4.4
 # assetman
 aspnet:8.0|mcr.microsoft.com/dotnet/aspnet:8.0
 sdk:8.0|mcr.microsoft.com/dotnet/sdk:8.0
+
+#db
+mssql/server:2022-latest|mcr.microsoft.com/mssql/server:2022-latest
+mysql:8.0
