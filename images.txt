@@ -24,3 +24,7 @@ aspnet:10.0-preview|mcr.microsoft.com/dotnet/aspnet:10.0-preview
 
 #avx
 mongo:4.4
+
+# assetman
+aspnet:8.0|mcr.microsoft.com/dotnet/aspnet:8.0
+sdk:8.0|mcr.microsoft.com/dotnet/sdk:8.0
